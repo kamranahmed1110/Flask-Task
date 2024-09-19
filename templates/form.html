@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Lab Report Chatbot</title>
+</head>
+<body>
+    <h1>Enter your Data</h1>
+    <form action="/submit" method="POST">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label for="cholesterol">Cholesterol:</label><br>
+        <input type="number" id="cholesterol" name="cholesterol"><br><br>
+
+        <label for="blood_pressure">Blood Pressure:</label><br>
+        <input type="number" id="blood_pressure" name="blood_pressure"><br><br>
+
+        <label for="glucose">Glucose :</label><br>
+        <input type="number" id="glucose" name="glucose"><br><br>
+
+        <label for="bmi">Body Mass Index (BMI):</label><br>
+        <input type="number" id="bmi" name="bmi" step="0.1"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
